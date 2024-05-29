@@ -13,7 +13,7 @@ order by ID asc;
 -- 3. list of all Names only Female
 select Name
 from artist
-where gender = "female"
+where Gender = "Female"
 group by Name;
 
 -- 4. list of all Album Names, IDs and Year
@@ -40,9 +40,9 @@ select
     count(*) "Number of Songs"
 from song s
 join album al
-on s.Album_id = al.ID
+on s.Album_ID = al.ID
 join artist ar 
-on al.Artist_id = ar.ID
+on al.Artist_ID = ar.ID
 group by ar.name
 order by count(*) desc;    
 
