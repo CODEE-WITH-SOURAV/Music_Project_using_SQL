@@ -10,7 +10,7 @@ select *
 from artist
 order by ID asc;
 
--- 3. list of all Names only Female
+-- 3. list of all Artist Names only Female
 select Name
 from artist
 where Gender = "Female"
