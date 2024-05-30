@@ -193,13 +193,95 @@ show tables;
 - The solution SQL queries to the database exercises are located inside this repository.
 - The correct query responses are provided below.
 
- ### Database exercises
+### Database exercises
 
+### -- 1. list of all record_label Names and IDs
 
+  ![Solution 1 ](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/d8ebe7f2-bf69-4df5-a63b-d5817cddffed)
 
+### -- 2. list of all artist Names and IDs
 
+  ![Solution 2](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/eca12968-96ab-4309-a121-afcbe3c908de)
 
+### -- 3. list of all Artist Names only Female
 
+  ![Solution 3](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/4dd330bf-7230-41b4-9c82-4e7c92a4ba10)
+
+### -- 4. list of all Album Names, IDs and Year
  
+  ![Solution 4](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/15c31841-4b2c-4fb5-8cbb-37bb68bb1744)
 
+### -- 5. list of all song Names and Ids
+  
+  ![Solution 5 1](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/465b9fdf-0334-4516-93c5-daeb4a5fdab0)
+
+  ![Solution 5 2](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/89ebfbb4-e043-417f-9462-49aae7edd618)
+ 
+  ![Solution 5 3](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/aa06761b-4f25-401c-89b0-6cbb77b398d9)
+
+### -- 6. List all artists for each record label sorted by artist name. 
+
+  ![Sollution 6](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/7f0e5549-8108-4fa9-9dec-5b7b2f89f267)
+
+### -- 7. List the number of songs per artist in descending order
+
+  ![Solution 7](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/12058a21-7dbc-4a1a-9160-6fa6e65b4bd5)
+
+### -- 8. Which artist or artists have recorded the most number of songs?
+
+  ![Solution 8](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/0438d747-6637-4b35-a590-c4b4fb15674d)
+
+### -- 9. Which artist or artists have recorded the least number of songs?
+
+  ![Solution 9](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/6e1c8340-aab6-463a-b15e-f2bad2ed9790)
+
+### -- 10. which artists have recorded songs longer than 5 minutes, and how many songs was that?
+
+  ![Solution 10](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/f993dc9b-e3f0-441c-addf-303f51efcefb)
+
+### -- 11. for each artist and album how many songs were less than 5 minutes long?
+
+  ![Solution 11](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/3c8c8a50-b15b-4796-a053-7668de3f3683)
+
+### -- 12. list the artist, song and year of the top 5 longest recorded songs
+
+  ![Solution 12](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/6d5d0fde-2c0e-4436-a3f6-6ba7444ac0fb)
+
+### -- 13. Number of albums recorded for each year
+
+  ![Solution 13](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/bec890a5-c39c-495f-8a46-784909853180)
+
+### -- 14. What is the max number of recorded albums across all the years?
+### -- Hint:  using the above sql as a temp table
+
+  ![Solution 14](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/47bbe7d2-d826-4b6f-a574-f87c715308b9)
+
+### -- 15. total duration of all songs recorded by each artist in descending order
+
+  ![Solution 15](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/cdfffc92-40ed-4868-a3e7-e3cf2e6284d3)
+
+### -- 16. for which artist and album are there no songs less than 5 minutes long?
+
+  ![Solution 16](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/38c083af-c7d4-4e89-9bfe-e710cecef086)
+
+### -- 17. Display a table of all artists, albums, songs and song duration 
+### -- all ordered in ascending order by artist, album and song  
+
+  ![Solution 17 1](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/7bf81e1e-1853-4c97-b8cc-e3250813918b)
+
+  ![Solution 17 2](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/987e4a30-1111-40be-b8af-e949414d1885)
+
+  ![Solution 17 3](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/f0b53c52-11d1-49e0-b83d-860a774d217d)
+
+### -- 18. List the top 3 artists with the longest average song duration, in descending with longest average first.
+
+  ![Solution 18](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/f92676a3-f306-4123-b93b-fa2530bec87f)
+
+### -- 19. Which artists did not release an album during the decades of the 2004 and the 2023?
+
+  ![Solution 19](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/acea494f-f1c9-459a-8115-0f661506d652)
+
+### -- 20. Which artists did release an album during the decades of the 2004 and the 2023? 
+
+  ![Solution 20](https://github.com/CODEE-WITH-SOURAV/Music_Project_using_SQL/assets/170940991/88e2a762-ea74-4fe7-8afa-25c2a16c7537)
 
